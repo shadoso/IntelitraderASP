@@ -1,0 +1,43 @@
+@model IntelitraderChallenge.Models.CipherFile
+
+<h2>Coloque um arquivo</h2>
+
+@using (Html.BeginForm("Download", "Cipher", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Cifra de César</h4>
+        <div id="cipherText" style="white-space: pre-wrap;">@ViewBag.Cipher</div>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Displacement, "Deslocamento", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Displacement, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Displacement, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.File, "Arquivo", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" id="File" name="File" class="form-control" required />
+                @Html.ValidationMessageFor(model => model.File, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" style="margin-top: 30px;">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" name="action" value=1 class="btn btn-primary btn-md">Cifrar</button>
+                <button type="submit" name="action" value=0 class="btn btn-primary btn-md">Decifrar</button>
+            </div>
+        </div>
+
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

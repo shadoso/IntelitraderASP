@@ -1,0 +1,46 @@
+{
+  "jogos_roguelike": [
+    {
+      "nome": "Exemplo Roguelike 1",
+      "desenvolvedora": "Desenvolvedora 1",
+      "ano_lancamento": 2020,
+      "descricao": "Um roguelike desafiador com mecânicas de combate estratégicas e geração procedural de níveis.",
+      "plataformas": [ "PC", "Nintendo Switch", "PlayStation 4" ],
+      "classificacao_etaria": "16+",
+      "recursos": {
+        "geracao_procedural": true,
+        "permadeath": true,
+        "itens_aleatorios": true,
+        "progressao_nao_linear": true
+      }
+    },
+    {
+      "nome": "Exemplo Roguelike 2",
+      "desenvolvedora": "Desenvolvedora 2",
+      "ano_lancamento": 2019,
+      "descricao": "Um roguelike com elementos de RPG, onde você explora masmorras e enfrenta inimigos diversos.",
+      "plataformas": [ "PC", "Xbox One", "PlayStation 4" ],
+      "classificacao_etaria": "12+",
+      "recursos": {
+        "geracao_procedural": true,
+        "permadeath": true,
+        "habilidades_personalizaveis": true,
+        "diversos_inimigos": true
+      }
+    },
+    {
+      "nome": "Exemplo Roguelike 3",
+      "desenvolvedora": "Desenvolvedora 3",
+      "ano_lancamento": 2021,
+      "descricao": "Um roguelike tático com batalhas por turnos e uma narrativa envolvente.",
+      "plataformas": [ "PC", "Nintendo Switch" ],
+      "classificacao_etaria": "18+",
+      "recursos": {
+        "geracao_procedural": true,
+        "permadeath": true,
+        "batalhas_por_turnos": true,
+        "narrativa_rica": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+Na Matemática Discreta, o princípio das gavetas do pombo afirma que se precisarmos colocar N + 1 ou mais pombos em N gavetas de pombo, então algumas gavetas devem conter dois ou mais pombos.
+
+Exemplo:
+
+Se Kn+ 1 (onde k é um número inteiro positivo) pombos forem distribuídos entre n gavetas, então alguma gaveta conterá pelo menos k + 1 pombos.
+Aplicações do Princípio das Gavetas do Pombo:
+
+Este princípio é aplicável em muitas áreas, como Teoria dos Números, Probabilidade, Algoritmos, Geometria, etc.
+Problemas e Soluções:
+Problema 1
+
+Uma sacola contém contas de duas cores: preta e branca. Qual é o menor número de contas que deve ser retirado da sacola, sem olhar, de modo que entre essas contas, duas sejam da mesma cor?
+
+Solução: Podemos retirar três contas da sacola. Se não houvesse mais do que uma conta de cada cor entre essas, então haveria no máximo duas contas no total. Isso é óbvio e contradiz o fato de termos escolhido as contas. Por outro lado, fica claro que escolher duas contas não é suficiente. Aqui, as contas desempenham o papel dos pombos, e as cores (preta e branca) desempenham o papel das gavetas de pombo.
+Problema 2
+
+Encontre o número mínimo de alunos em uma classe para que três deles nasçam no mesmo mês?
+
+Solução: Número de meses n = 12
+
+De acordo com a condição dada,
+
+K+1 = 3
+
+K = 2
+
+M = kn +1 = 2*12 + 1 = 25.
+Problema 3
+
+Mostre que, a partir de três números inteiros, sempre é possível escolher dois deles de forma que a^3b – ab^3 seja divisível por 10.
+
+Solução: Podemos fatorar a expressão a^3b – ab^3 = ab(a + b)(a - b), que é sempre par, independentemente do par de números inteiros que escolhemos.
+
+Se um dos três números inteiros da expressão acima estiver na forma de 5k, que é um múltiplo de 5, então nosso resultado está provado.
+
+Se nenhum dos números inteiros for múltiplo de 5, então os números escolhidos devem estar na forma de (5k)+-(1) e (5k)+-(2) respectivamente.
+
+Claramente, dois desses três números na expressão acima devem estar em uma das duas formas mencionadas, o que segue pela virtude deste princípio.
+
+Esses dois números são aqueles em que a soma e a diferença deles são sempre divisíveis por 5. Portanto, nosso resultado está provado.

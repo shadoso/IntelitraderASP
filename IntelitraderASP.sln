@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelitraderChallenge", "IntelitraderChallenge\IntelitraderChallenge.csproj", "{838E2F45-AF71-4FC6-8EC9-80FF5D1E54E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838E2F45-AF71-4FC6-8EC9-80FF5D1E54E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838E2F45-AF71-4FC6-8EC9-80FF5D1E54E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838E2F45-AF71-4FC6-8EC9-80FF5D1E54E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838E2F45-AF71-4FC6-8EC9-80FF5D1E54E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8B0617B-66B2-4CA3-AEC4-5BF5CA353636}
+	EndGlobalSection
+EndGlobal
