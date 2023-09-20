@@ -1,7 +1,5 @@
 # IntelitraderASP
 
-Este repositório contém arquivos que podem ser usados para testar o código da aplicação IntelitraderASP.
-
 ## Test Files
 Os arquivos de teste estão localizados na pasta [TestFiles](https://github.com/shadoso/IntelitraderASP/tree/main/IntelitraderChallenge%2FApp_Data%2FTestFiles). Eles podem ser usados para verificar o funcionamento do código.
 
