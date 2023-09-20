@@ -5,6 +5,12 @@ Este repositório contém arquivos que podem ser usados para testar o código da
 ## Test Files
 Os arquivos de teste estão localizados na pasta [TestFiles](https://github.com/shadoso/IntelitraderASP/tree/main/IntelitraderChallenge%2FApp_Data%2FTestFiles). Eles podem ser usados para verificar o funcionamento do código.
 
+## Algoritmos
+
+Os algoritmos podem ser encontrados na pasta **Controllers** deste repositório.
+
+[Link para a pasta dos Controllers](https://github.com/shadoso/IntelitraderASP/tree/main/IntelitraderChallenge%2FControllers)
+
 ## Compilação e Execução
 Para testar o código, basta compilar o projeto. A entrada de dados é realizada através do teclado e do mouse.
 
